@@ -1,0 +1,122 @@
+/* Basic styling for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #f4f4f4, #e0e0e0); /* Light gray gradient */
+    color: #333; /* Darker text color for contrast */
+    position: relative;
+    padding-top: 80px; /* Add padding to account for the fixed header */
+}
+
+/* Optional overlay for enhanced contrast */
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+
+/* Fit Track Header Styling */
+/* Fit Track Header Styling */
+.fit-track-header {
+    background-color: #333;
+    color: white;
+    padding: 40px 20px; /* Increased the padding to make the header taller */
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    position: fixed; /* Make the header stick to the top */
+    top: 0; /* Align it to the top */
+    left: 0; /* Align it to the left */
+    z-index: 1000; /* Ensure it stays on top of other content */
+}
+
+.fit-track-header h1 {
+    margin: 0;
+    font-size: 2.5em; /* Increased font size to match the bigger header */
+    font-weight: 700;
+    color: #e63946;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+
+/* Container for login/signup forms */
+.login-signup-container {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white box */
+    padding: 30px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 80px;
+    position: relative; /* Ensures form appears below the header */
+}
+
+/* Form title styling */
+.form-container h2 {
+    margin: 0 0 20px;
+    color: #333;
+    font-size: 1.5em;
+}
+
+/* Label and input styling */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #555;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+}
+
+/* Button styling */
+.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #e63946;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #d62839;
+}
+
+/* Toggle link styling */
+.toggle-form {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.toggle-form a {
+    color: #e63946;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.toggle-form a:hover {
+    text-decoration: underline;
+}

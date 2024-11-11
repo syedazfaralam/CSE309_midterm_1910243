@@ -1,0 +1,385 @@
+/* Reset some basic margins */
+html {
+    scroll-padding-top: 5rem; /* Adjust based on your header's height */
+    scroll-behavior: smooth; /* For smooth scrolling */
+}
+
+body, h1, h2, p, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Styling */
+header {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black */
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.logo {
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+.logo-highlight {
+    color: #ff4500; /* Orange color */
+}
+
+nav {
+    display: flex;
+    gap: 1.5rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #ff4500;
+}
+
+.btn-signup {
+    background-color: #ff4500;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.btn-signup:hover {
+    background-color: #e63900;
+}
+
+/* Hero Section Styling */
+.hero {
+    background: url('backmuscle.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(236, 96, 15);
+    position: relative;
+    padding-top: 5rem; /* To avoid overlapping with header */
+    
+
+}
+
+.hero-content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    letter-spacing: 1px;
+}
+
+.hero-content h1 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.highlight {
+    color: #ff4500;
+}
+
+.btn-member {
+    background-color: #ff4500;
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 2rem;
+    display: inline-block;
+}
+
+.btn-member:hover {
+    background-color: #e63900;
+}
+
+/* Styling for original "Fit Track" and Name */
+.gym {
+    color: #fff;
+    font-size: 2.5rem;
+    margin-top: 3rem;
+    background: none;
+}
+
+.passion {
+    color: pink;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+/* About Section Styling */
+.Programs-section {
+    padding: 5rem 2rem;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+.Programs-section h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+.Programs-section .highlight {
+    color: #ff4500;
+}
+
+.Programs-description p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 3rem;
+}
+
+.programs {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.program {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+}
+
+.program img {
+    width: 80px;
+    margin-bottom: 1rem;
+}
+
+.program h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 1rem 0;
+}
+
+.program p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.discover-more {
+    text-decoration: none;
+    color: #ff4500;
+    font-weight: bold;
+}
+#supplements-diet {
+    background: url('nutritionimage.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #160703;
+    position: relative;
+    padding-top: 5rem;
+    gap: 1rem; /* Space between heading and boxes */
+}
+/* Adjust font size and position for Supplements & Diet heading and description */
+.diet-content h2 {
+    font-size: 3.5rem; /* Increase to make the heading larger */
+    font-weight: bold;
+}
+
+.diet-content p {
+    font-size: 1.8rem; /* Increase to make the paragraph text larger */
+}
+
+/* Move content up */
+.diet-content {
+    position: relative;
+    top: -5rem; /* Adjust this value to move content further up or down */
+}
+
+/* Adjusting font size for Supplements & Diet section */
+.supplements-diet-section h2 {
+    font-size: 4rem; /* Adjust to preferred size */
+}
+
+.supplements-diet-section p {
+    font-size: 2.2rem; /* Adjust to preferred size */
+}
+
+.supplements-diet-section .learn-more {
+    font-size: 2rem; /* Adjust to preferred size for the link */
+}
+.supplements-diet-content {
+    position: relative;    /* Allows movement using top */
+    top: -210px;            /* Negative value to move it up */
+    font-size: 2.2rem;     /* Adjust font-size if needed */
+}
+
+/* Supplement Goals Boxes Styling */
+.supplement-goals {
+    display: flex;
+    justify-content: center;
+    gap: 6rem; 
+    /* Space between boxes */
+     /* Adjust as needed */
+}
+
+.goal-box {
+    color: #1b1616f5; /* White text color */
+    font-weight: bold; /* Makes the font thicker */
+    font-size: 1.5rem; /* Adjust font size as needed */
+    border: 4px solid #fcfcfc; /* Makes the border thicker and white */
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
+}
+.goal-box-link {
+    text-decoration: none;
+    color: inherit; /* Keeps text color same as box styling */
+}
+
+.goal-box-link:hover .goal-box {
+    /* Optional hover effect for the box when hovered as a link */
+    border-color: #ff4500; /* Change border color on hover */
+}
+
+.about-section {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.about-section h2 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.about-section h3 {
+    font-size: 1.2em;
+    color: gray;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.about-section p {
+    font-size: 1em;
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto 40px;
+    line-height: 1.6;
+}
+
+.about-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.about-image {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.about-image::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 150%;
+    height: 30%;
+    background-color: #FF5733; /* Adjust this color as needed */
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.about-image img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.view-more-btn {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #333;
+    border: 2px solid #333;
+    background: none;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.view-more-btn:hover {
+    color: white;
+    background-color: #333;
+}
+/* Footer styling */
+.footer {
+    background-color: #333;
+    color: #f0f0f0;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.footer-content h3 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #f0f0f0;
+}
+
+.footer-content p {
+    margin: 5px 0;
+    color: #dcdcdc;
+}
+
+/* Footer links styling */
+.footer-links {
+    margin: 20px 0;
+}
+
+.footer-link {
+    color: #f0f0f0;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+    color: #ff6b6b; /* Or another accent color */
+}
+
+/* Social media icons styling */
+.social-media a img {
+    width: 30px;
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+}
+
+.social-media a img:hover {
+    transform: scale(1.1);
+}
+
+/* Copyright styling */
+.copyright {
+    margin-top: 20px;
+    color: #bfbfbf;
+    font-size: 14px;
+}

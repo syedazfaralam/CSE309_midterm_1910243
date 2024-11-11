@@ -1,0 +1,77 @@
+/* Light red layout under the Fit Track Privacy Policy heading */
+.privacy-header {
+    background-color: #ff7a7a; /* Light red */
+    padding: 30px;
+    text-align: center;
+    border-bottom: 4px solid #e63946; /* Darker red for contrast */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+}
+
+.privacy-header h1 {
+    color: #333;
+    font-size: 2.5em;
+    margin: 0;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* Black background with white text for the content */
+.privacy-content {
+    background-color: #000;
+    color: #fff;
+    padding: 40px;
+    max-width: 800px;
+    margin: 30px auto;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4); /* Adds shadow for depth */
+    line-height: 1.7;
+    font-size: 1.1em;
+}
+
+/* Styling headings within content */
+.privacy-content h2 {
+    color: #ff7a7a;
+    margin-top: 25px;
+    font-size: 1.5em;
+    border-bottom: 2px solid #ff7a7a; /* Underline for each heading */
+    padding-bottom: 5px;
+}
+
+/* Bullet point styling */
+.privacy-content ul {
+    list-style-type: square;
+    margin-left: 20px;
+    padding-left: 0;
+}
+
+.privacy-content ul li {
+    margin-bottom: 10px;
+}
+
+/* Link styling in content */
+.privacy-content a {
+    color: #ff7a7a;
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 1px solid #ff7a7a; /* Underline effect */
+}
+
+.privacy-content a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .privacy-content {
+        padding: 20px;
+        font-size: 1em;
+    }
+
+    .privacy-header h1 {
+        font-size: 2em;
+    }
+
+    .privacy-content h2 {
+        font-size: 1.3em;
+    }
+}
